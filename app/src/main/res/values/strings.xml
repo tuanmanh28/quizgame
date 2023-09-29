@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz Game</string>
+    <string name="sign_up">
+    <u>Sign Up</u></string>
+    <string name="i_forgot_my_password"><u>I forgot my password</u></string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or">OR</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="check_account">Haven\'t you had an account yet?</string>
+</resources>

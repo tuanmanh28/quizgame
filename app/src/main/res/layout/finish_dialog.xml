@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/finish_dialog_background"
+        >
+
+        <TextView
+            android:layout_width="255dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textSize="16sp"
+            android:text="Congratulattions!!!\nYou have answer all the questions. Do you want to see the result?"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnPlayAgain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="Play again"
+                android:padding="10dp"
+                android:textAllCaps="true"
+                android:textColor="@color/orange"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSeeResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="see result"
+                android:padding="10dp"
+                android:textAllCaps="true"
+                android:textColor="@color/orange"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>
