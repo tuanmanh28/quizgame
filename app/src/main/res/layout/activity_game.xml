@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:text="Time: "
                 android:textColor="@color/black"
-                android:textSize="16sp" />
+                android:textSize="15sp" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/edtTime"
@@ -48,14 +48,14 @@
                 android:inputType="text"
                 android:paddingRight="2dp"
                 android:text="@{time.time}"
-                android:textSize="16sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Correct Answer: "
                 android:textColor="@color/black"
-                android:textSize="16sp" />
+                android:textSize="15sp" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="30dp"
@@ -66,14 +66,14 @@
                 android:inputType="text"
                 android:paddingRight="2dp"
                 android:text="@{scores.correctAnswer}"
-                android:textSize="16sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Wrong Answer: "
                 android:textColor="@color/black"
-                android:textSize="16sp" />
+                android:textSize="15sp" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="30dp"
@@ -84,7 +84,7 @@
                 android:inputType="text"
                 android:paddingRight="2dp"
                 android:text="@{scores.wrongAnswer}"
-                android:textSize="16sp" />
+                android:textSize="15sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -106,7 +106,7 @@
                 android:gravity="center"
                 android:text="@{questions.question}"
                 android:textColor="@color/black"
-                android:textSize="18sp" />
+                android:textSize="17sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnA"
@@ -120,7 +120,7 @@
                 android:text="@{questions.a}"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                android:textSize="18sp" />
+                android:textSize="17sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnB"
@@ -134,7 +134,7 @@
                 android:text="@{questions.b}"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                android:textSize="18sp" />
+                android:textSize="17sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnC"
@@ -148,7 +148,7 @@
                 android:text="@{questions.c}"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                android:textSize="18sp" />
+                android:textSize="17sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnD"
@@ -162,7 +162,7 @@
                 android:text="@{questions.d}"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                android:textSize="18sp" />
+                android:textSize="17sp" />
         </LinearLayout>
 
         <LinearLayout
