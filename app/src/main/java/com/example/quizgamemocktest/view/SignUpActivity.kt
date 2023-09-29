@@ -20,7 +20,6 @@ class SignUpActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
         binding = ActivitySignUpBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
