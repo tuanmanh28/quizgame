@@ -1,4 +1,4 @@
-package com.example.quizgamemocktest.view
+package com.example.quizgamemocktest.viewmodel
 
 
 import android.annotation.SuppressLint
@@ -12,7 +12,6 @@ import android.view.View
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import com.example.quizgamemocktest.R
 import com.example.quizgamemocktest.databinding.ActivitySignInMainBinding
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount

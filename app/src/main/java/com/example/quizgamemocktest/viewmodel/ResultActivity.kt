@@ -1,9 +1,8 @@
-package com.example.quizgamemocktest.view
+package com.example.quizgamemocktest.viewmodel
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.quizgamemocktest.R
 import com.example.quizgamemocktest.databinding.ActivityResultBinding
 import com.example.quizgamemocktest.model.Scores
 

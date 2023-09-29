@@ -1,4 +1,4 @@
-package com.example.quizgamemocktest.view
+package com.example.quizgamemocktest.viewmodel
 
 
 import android.annotation.SuppressLint
@@ -6,7 +6,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
-import android.view.View
 import android.widget.Toast
 import com.example.quizgamemocktest.databinding.ActivityForgotPasswordBinding
 import com.google.firebase.auth.FirebaseAuth

@@ -13,35 +13,35 @@
         android:theme="@style/Theme.QuizGameMockTest"
         tools:targetApi="31">
         <activity
-            android:name=".view.ResultActivity"
+            android:name=".viewmodel.ResultActivity"
             android:exported="false" />
         <activity
-            android:name=".view.SignUpActivity"
+            android:name=".viewmodel.SignUpActivity"
             android:exported="false"
-            android:parentActivityName=".view.SignInMainActivity"
+            android:parentActivityName=".viewmodel.SignInMainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".view.SignInMainActivity"
+            android:name=".viewmodel.SignInMainActivity"
             android:screenOrientation="portrait"
             android:exported="false" />
         <activity
-            android:name=".view.LoadingActivity"
+            android:name=".viewmodel.LoadingActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".view.HomeActivity"
+            android:name=".viewmodel.HomeActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".view.GameActivity"
+            android:name=".viewmodel.GameActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".view.ForgotPasswordActivity"
+            android:name=".viewmodel.ForgotPasswordActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".view.MainActivity"
+            android:name=".viewmodel.MainActivity"
             android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
