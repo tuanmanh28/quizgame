@@ -52,6 +52,7 @@
                 android:drawableLeft="@drawable/ic_mail"
                 android:drawablePadding="15dp"
                 android:drawableTint="#666666"
+                android:textColor="#666666"
                 android:hapticFeedbackEnabled="false"
                 android:hint="@string/email"
                 android:text="@{user.email}"
